@@ -1,6 +1,6 @@
-# myhelloworld README
+# copyluapath README
 
-This is the README for your extension "myhelloworld". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "copyluapath". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

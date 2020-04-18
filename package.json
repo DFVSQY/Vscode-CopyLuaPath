@@ -1,5 +1,5 @@
 {
-	"name": "myhelloworld",
+	"name": "copyluapath",
 	"displayName": "HelloWorld",
 	"description": "this is my first vscode extenstion",
 	"version": "0.0.1",
@@ -10,14 +10,26 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:myhelloworld.helloWorld"
+		"onCommand:copyluapath.copyPath"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "myhelloworld.helloWorld",
-				"title": "Hello World"
+				"command": "copyluapath.copyPath",
+				"title": "Copy Lua Path"
+			}
+		],
+		"configuration":[
+			{
+				"title": "CopyLuaPath",
+				"properties": {
+					"copyluapath.luaPathPrefix": {
+						"type":"string",
+						"default":"Assets/Scripts/Lua/",
+						"description": "Lua prefix path that will be ignore"
+					}
+				}
 			}
 		]
 	},
