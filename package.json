@@ -1,7 +1,8 @@
 {
 	"name": "copyluapath",
-	"displayName": "HelloWorld",
-	"description": "this is my first vscode extenstion",
+	"publisher": "DFVSQY",
+	"displayName": "CopyLuaPath",
+	"description": "This is an extension that implemente copy lua path according to my idea",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.44.0"
