@@ -6,6 +6,7 @@
 		"url": "https://github.com/DFVSQY/Vscode-CopyLuaPath"
 	},
 	"displayName": "CopyLuaPath",
+	"icon": "icon.png",
 	"description": "This is an extension that implemente copy lua path according to my idea",
 	"version": "0.0.1",
 	"engines": {
