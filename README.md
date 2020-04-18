@@ -1,6 +1,6 @@
-# copyluapath README
+# CopyLuaPath README
 
-This is the README for my extension "copyluapath".
+This is the README for my extension "CopyLuaPath".
 
 ## Feature
 
